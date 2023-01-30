@@ -1,4 +1,5 @@
 # ignore
-06_Strings/06_00_String_Methods/
-test/*
 settings.json
+06_00_String_Methods/*
+08_00_Lists_Methods/*
+test/*
