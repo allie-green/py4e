@@ -1,5 +1,4 @@
 # ignore
 settings.json
-06_00_String_Methods/*
-08_00_Lists_Methods/*
+00_Methods/*
 test/*
