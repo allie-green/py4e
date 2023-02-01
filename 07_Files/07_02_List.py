@@ -1,3 +1,4 @@
+# 7.2 List version
 f_name = input("Enter a file name: ")
 f_handle = open(f_name)
 
