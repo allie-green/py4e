@@ -1,6 +1,7 @@
 """
 10.01
-* Read and parse the “From” lines and pull out the addresses from the line.* Count the number of messages from each person using a dictionary.
+* Read and parse the “From” lines and pull out the addresses from the line.
+* Count the number of messages from each person using a dictionary.
 * Create a list of tuples from the dictionary.
 * Sort the list in reverse order and print out the person who has the most commits.
 """
