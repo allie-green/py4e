@@ -18,7 +18,7 @@ for line in fhandle:
 for x in l_hours:
     d[x] = d.get(x, 0) + 1
 
-l_hours_sorted = sorted([ _ for _ in d.items()])
+l_hours_sorted = sorted(d.items())
 
 for (k, v) in l_hours_sorted:
     print(k,v)
