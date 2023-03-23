@@ -24,5 +24,5 @@ for char in letters:
 
 letters = sorted([(v,k) for (k,v) in d.items()], reverse=True)
 
-for (k,v) in letters:
-    print(v,k)
+for v,k in letters:
+    print(k,v)
