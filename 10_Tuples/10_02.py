@@ -22,5 +22,3 @@ l_hours_sorted = sorted([ _ for _ in d.items()])
 
 for (k, v) in l_hours_sorted:
     print(k,v)
-
-
