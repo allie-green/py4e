@@ -22,12 +22,12 @@ for x in l:
 # two options to sort the list in desending order
 
 # swapping (key, val) for (val, key), then `sort()`
-# for (key,val) in list(d.items()):
-#     l_items.append((val,key))
-# l_items.sort(reverse=True)
+for (key,val) in list(d.items()):
+    l_items.append((val,key))
+l_items.sort(reverse=True)
 
 # or with [list comprehension] as first argument in `sorted()` function
 l_items = sorted([ (v,k) for (k,v) in d.items()], reverse=True)
 
 for (k,v) in l_items[:1]:
-    print(k,v)
+    print(v,k)
