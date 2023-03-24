@@ -13,7 +13,7 @@ d = dict()
 
 for line in fhandle:
     if line.startswith('From '):
-        l_hours.append(line[len(line)-14:len(line)-12])
+        l_hours.append(line.split()[5][0:2])
 
 for x in l_hours:
     d[x] = d.get(x, 0) + 1
