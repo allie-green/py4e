@@ -26,9 +26,9 @@ while True:
     # Check if response contains 400 Bad Request or 404 Not Found
     # in case the URL is non-existent
     if '400 Bad Request' or '404 Not Found' in data.decode():
-        print('Non-existent URL, the program ends here :(')
-        quit()
-    else: print(data.decode(),end='')
+         print('Non-existent URL, the program ends here :(')
+         quit()
+    print(data.decode(),end='')
 
 mysock.close()
 
