@@ -23,11 +23,10 @@ while True:
     data = mysock.recv(512)
     if len(data) < 1:
         break
-    # Check if response contains 400 Bad Request or 404 Not Found
-    # in case the URL is non-existent
-    if '400 Bad Request' or '404 Not Found' in data.decode():
-         print('Non-existent URL, the program ends here :(')
-         quit()
+    # Check in case the URL is non-existent
+    if 'HTTP/1.1 400 Bad Request' in data.decode() or 'HTTP/1.1 404 Not Found' in data.decode():
+        print('Not a valid URL, the program ends here :(')
+        quit()
     print(data.decode(),end='')
 
 mysock.close()
