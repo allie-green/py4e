@@ -5,4 +5,4 @@ f_name = input("Enter a file name: ")
 f_handle = open(f_name)
 
 for line in f_handle:
-	print(line.upper())
+	print(line.upper().strip())
