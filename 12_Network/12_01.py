@@ -1,9 +1,4 @@
-'''
-12.01
-* Prompt the user for the URL so it can read any web page. 
-* Use split('/') to break the URL so you can extract the host name for the socket connect call. 
-* Use try and except to handle the condition where the user enters an improperly formatted or non-existent URL.
-'''
+# 12_01
 import socket
 
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
