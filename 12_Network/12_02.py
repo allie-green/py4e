@@ -1,9 +1,4 @@
-'''
-12.02
-* Retrieve the entire document and count the total number of characters.
-* Stop displaying any text after it has shown 3000 characters.
-* Display the count of the number of characters at the end of the document.
-'''
+# 12_02
 import socket
 
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
